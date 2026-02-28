@@ -1,0 +1,38 @@
+{
+  "title": "The Endemic Baseline: When B_reference Was Never Set",
+  "description": "Paper 7 in the Memory as Baseline Deviation series. Formalizes the endemic baseline condition — B(0) constructed during chronic disruption — and derives three predicted failure modes plus the Re-zeroing Protocol. Includes two executable computational labs.",
+  "creators": [
+    {
+      "name": "Everett, Brandon",
+      "orcid": "0000-0001-7521-5469"
+    }
+  ],
+  "keywords": [
+    "memory as baseline deviation",
+    "endemic baseline",
+    "calibration failure",
+    "re-zeroing protocol",
+    "computational psychiatry",
+    "horizon problem"
+  ],
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/YellowHapax/MBD-Framework",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.18652919",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/YellowHapax/Suppressive-and-Emergent-Phenomenon",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

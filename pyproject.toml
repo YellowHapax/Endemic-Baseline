@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "endemic-baseline"
+version = "1.0.0"
+description = "Paper 7: The Endemic Baseline — When B_reference Was Never Set"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Brandon Everett", email = "" }]
+keywords = [
+    "memory as baseline deviation",
+    "endemic baseline",
+    "calibration failure",
+    "re-zeroing protocol",
+    "computational psychiatry",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[project.urls]
+Repository = "https://github.com/YellowHapax/Endemic-Baseline"
+"MBD Framework" = "https://github.com/YellowHapax/MBD-Framework"
+"Paper 8 (Successor)" = "https://github.com/YellowHapax/Suppressive-and-Emergent-Phenomenon"

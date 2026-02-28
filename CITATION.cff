@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "The Endemic Baseline: When B_reference Was Never Set"
+message: >-
+  If you use this work in your research, please cite it using the metadata below.
+type: software
+authors:
+  - given-names: Brandon
+    family-names: Everett
+    orcid: "https://orcid.org/0000-0001-7521-5469"
+repository-code: https://github.com/YellowHapax/Endemic-Baseline
+license: Apache-2.0
+version: 1.0.0
+date-released: "2026-02-27"
+abstract: >-
+  Paper 7 in the Memory as Baseline Deviation series. Addresses the foundational
+  failure mode in which B(0) was itself constructed during chronic disruption —
+  the endemic baseline. Formalizes three predicted consequences (healthy-input
+  rejection, horizon invisibility, intervention failure) and derives the
+  Re-zeroing Protocol from first principles. Includes two executable computational
+  labs: P7a (calibration failure under healthy input) and P7b (Re-zeroing
+  Protocol vs. flood vs. withdrawal).
+keywords:
+  - memory as baseline deviation
+  - endemic baseline
+  - calibration failure
+  - re-zeroing protocol
+  - computational psychiatry
+  - MBD framework
+
+references:
+  - type: software
+    title: "MBD-Framework: Memory as Baseline Deviation — Reference Implementations"
+    authors:
+      - given-names: Brandon
+        family-names: Everett
+    doi: 10.5281/zenodo.18652919
+    repository-code: https://github.com/YellowHapax/MBD-Framework
+
+  - type: software
+    title: "The Suppressive and Emergent Phenomenon"
+    authors:
+      - given-names: Brandon
+        family-names: Everett
+    repository-code: https://github.com/YellowHapax/Suppressive-and-Emergent-Phenomenon
