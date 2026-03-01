@@ -26,7 +26,7 @@ The deviation framework measures novelty as:
 
 $$N(t) = \|I(t) - B(t)\|$$
 
-and all downstream dynamics — encoding strength, ╬║-coupling modulation, attractor basin gravity — are functions of $N(t)$.
+and all downstream dynamics — encoding strength, κ-coupling modulation, attractor basin gravity — are functions of $N(t)$.
 
 **The implicit assumption baked into all six prior papers:** $B_{reference}$ is anchored to experiences that include at least some interval of healthy, undisrupted state. The system knows what a clear sky looks like because it has seen one. Pathology is deviation *away from* that anchor. Treatment is deviation *back toward* it.
 
@@ -76,9 +76,9 @@ $$N_{incongruent} = \|I_{healthy} - B_{storm}\| \gg \theta_h$$
 
 where $\theta_h$ is the encoding threshold. The result: healthy inputs are encoded with maximum novelty weight. This seems like it would accelerate recovery. It does not, for two distinct reasons.
 
-**Reason 1: Destabilization without scaffold.** High novelty activates attractor-escape dynamics (as described in Paper 3's FokkerΓÇôPlanck account). The agent's existing attractor basin — the storm — is deep and well-rutted. A maximally novel input has the kinetic energy to displace the agent from that basin, but it has nowhere to land. $\mathcal{H}$ has no attractor structure because it has never been explored. The agent escapes the storm basin and falls into an undifferentiated fog. This reads clinically as acute decompensation in response to initially positive intervention.
+**Reason 1: Destabilization without scaffold.** High novelty activates attractor-escape dynamics (as described in Paper 3's Fokker–Planck account). The agent's existing attractor basin — the storm — is deep and well-rutted. A maximally novel input has the kinetic energy to displace the agent from that basin, but it has nowhere to land. $\mathcal{H}$ has no attractor structure because it has never been explored. The agent escapes the storm basin and falls into an undifferentiated fog. This reads clinically as acute decompensation in response to initially positive intervention.
 
-**Reason 2: The ╬║-rejection mechanism.** From Paper 4 (Coupling Asymmetry), a high-novelty input from a low-╬║ source is rejected. The endemic-baseline agent typically has a low baseline ╬║ — chronic disruption produces relational distrust, low ╬║ is a rational adaptation to an environment that was never reliably safe. The therapeutic relationship (the source of healthy inputs) starts at low ╬║. The healthy input arrives with maximum novelty from a low-╬║ source. The system's own mechanics predict non-integration.
+**Reason 2: The κ-rejection mechanism.** From Paper 4 (Coupling Asymmetry), a high-novelty input from a low-κ source is rejected. The endemic-baseline agent typically has a low baseline κ — chronic disruption produces relational distrust, low κ is a rational adaptation to an environment that was never reliably safe. The therapeutic relationship (the source of healthy inputs) starts at low κ. The healthy input arrives with maximum novelty from a low-κ source. The system's own mechanics predict non-integration.
 
 ### 3.2 The Restoration-Protocol Failure Mode
 
@@ -86,7 +86,7 @@ Standard intervention logic: identify $B_{healthy}$ (the reference), measure the
 
 This fails for the endemic-baseline agent because $B_{healthy}$ **does not exist in their system**. There is no prior encoding of the target state. The protocol is attempting to restore a file that was never written.
 
-Worse: applying strong pressure toward $\mathcal{H}$ from $B_{storm}$ is equivalent to applying a large, sudden $I(t)$ far from the current baseline — maximum novelty, maximum destabilization, low ╬║, no attractor to catch the escape. The prediction is iatrogenic decompensation. The data supports the prediction.
+Worse: applying strong pressure toward $\mathcal{H}$ from $B_{storm}$ is equivalent to applying a large, sudden $I(t)$ far from the current baseline — maximum novelty, maximum destabilization, low κ, no attractor to catch the escape. The prediction is iatrogenic decompensation. The data supports the prediction.
 
 ---
 
@@ -96,7 +96,7 @@ The correct intervention is not restoration. It is **first contact** with a prev
 
 1. **Controlled novelty magnitude.** Inputs must satisfy $N(t) \approx \theta_h + \varepsilon$ — just over threshold, not maximal. The goal is to *enter* $\mathcal{H}$ incrementally, not to arrive in it suddenly. Each micro-excursion deposits a new point in $H_{agent}$.
 
-2. **High ╬║ scaffold.** From Paper 4, $\kappa$ determines how deeply an input rewrites the baseline. But it also determines whether the input is integrated at all under the ╬║-rejection mechanism. The therapeutic relationship must achieve high ╬║ *before* horizon-excursion inputs are delivered. ╬║-building precedes everything.
+2. **High κ scaffold.** From Paper 4, $\kappa$ determines how deeply an input rewrites the baseline. But it also determines whether the input is integrated at all under the κ-rejection mechanism. The therapeutic relationship must achieve high κ *before* horizon-excursion inputs are delivered. κ-building precedes everything.
 
 3. **Tolerance of distress as navigation, not failure.** When the agent reports distress during a healthy-input excursion, this is the Emergent Gate firing correctly: maximum novelty, maximum encoding. The distress is the system doing its job. It is not a sign the intervention is wrong. The clinical error is to retreat from the distress signal back to the storm, which deepens the storm-basin further.
 
@@ -145,7 +145,7 @@ When `endemic = True`, the following framework behaviors change:
 | Intervention target | $B_{reference}$ (restore to prior) | Construct first $B_{reference}$ from scratch |
 | Maximum-novelty input | Destabilizing | Destabilizing *and expected on the path to health* |
 | Treatment distress signal | Possible misfit | Predicted navigation cost, not failure |
-| ╬║ sequencing | Parallel with input | ╬║-building strictly precedes horizon inputs |
+| κ sequencing | Parallel with input | κ-building strictly precedes horizon inputs |
 | Identity disruption | Side-effect | Structural prediction, must be held |
 
 ---
@@ -155,7 +155,7 @@ When `endemic = True`, the following framework behaviors change:
 | Lab | What it shows |
 |-----|--------------|
 | `phenomena_endemic` | Storm-born agent: healthy inputs bounce, high novelty produces destabilization not integration |
-| `phenomena_rezeroing` | Re-zeroing Protocol: sequential micro-excursions with high ╬║ scaffold gradually expand $H_{agent}$ |
+| `phenomena_rezeroing` | Re-zeroing Protocol: sequential micro-excursions with high κ scaffold gradually expand $H_{agent}$ |
 
 ---
 
@@ -165,7 +165,7 @@ When `endemic = True`, the following framework behaviors change:
 |-------|----------------------|
 | Paper 1 | Core $B(t+1)$ equation; baseline as running average of lived experience |
 | Paper 3 | Episodic encoding requires novelty above $\theta_h$; context-scaffolded recall from $H_{agent}$ |
-| Paper 4 | ╬║-rejection of inputs from low-╬║ sources; ╬║ as prerequisite for integration |
+| Paper 4 | κ-rejection of inputs from low-κ sources; κ as prerequisite for integration |
 | Paper 5 | Mood-incongruent inputs produce maximum novelty; the gate opens widest at maximum incongruence |
 
 ---
@@ -184,7 +184,7 @@ The mathematics are unchanged. The meaning of every term in them has to be reneg
 
 ## 10. Formal Correspondence with Friston's Active Inference / Free Energy Principle
 
-The Free Energy Principle (FEP) and its active inference framework (Friston, 2010ΓÇô2025) describe cognition as variational Bayesian inference: all neural dynamics minimize a bound on surprise, and action is the mechanism by which organisms bring sensory observations into alignment with their prior preferences. MBD and FEP share deep structural roots. This section establishes the formal correspondence, identifies the novel contributions that each framework brings to the other, and anchors the correspondence to the empirical literature.
+The Free Energy Principle (FEP) and its active inference framework (Friston, 2010–2025) describe cognition as variational Bayesian inference: all neural dynamics minimize a bound on surprise, and action is the mechanism by which organisms bring sensory observations into alignment with their prior preferences. MBD and FEP share deep structural roots. This section establishes the formal correspondence, identifies the novel contributions that each framework brings to the other, and anchors the correspondence to the empirical literature.
 
 ### 10.1 Variable Correspondence Table
 
@@ -216,7 +216,7 @@ FEP provides three things MBD currently handles loosely:
 
 1. **Hierarchical precision.** MBD uses a single $\lambda$. FEP has precision at every level of a hierarchical generative model, with context-dependent modulation. A full account of the endemic baseline probably requires precision to vary across representational levels — the prior at the self-model level may be more resistant than the prior at the sensory level.
 
-2. **Neural substrate predictions.** The insula hierarchy (granular ΓåÆ dysgranular ΓåÆ agranular, posterior ΓåÆ anterior) provides specific, testable predictions about *where* in the brain the $I(t) - B(t)$ computation occurs, where the precision modulation occurs, and what breaks in psychiatric disorders. Adamic et al. (2024) provides fMRI data directly testable against endemic baseline predictions.
+2. **Neural substrate predictions.** The insula hierarchy (granular → dysgranular → agranular, posterior → anterior) provides specific, testable predictions about *where* in the brain the $I(t) - B(t)$ computation occurs, where the precision modulation occurs, and what breaks in psychiatric disorders. Adamic et al. (2024) provides fMRI data directly testable against endemic baseline predictions.
 
 3. **Action as free energy minimization.** MBD's Re-zeroing Protocol describes a sequence of inputs. FEP provides the deeper account of how active inference *selects* those inputs — the agent acts to bring future sensory states into alignment with prior preferences. For re-zeroing, the protocol must first establish preferred states in $\mathcal{H}$ before action selection can target them.
 
@@ -226,7 +226,7 @@ The most direct neural evidence for the MBD endemic baseline prediction comes fr
 
 **Population:** 46 individuals with anxiety, depression, and/or eating disorders (ADE; 72% lifetime MDD) and 46 matched healthy comparisons (HC), measured during pharmacological interoceptive perturbation (isoproterenol IV infusion) and voluntary interoceptive attention tasks.
 
-**Finding 1 — Blunted anticipatory agranular activation (MBD: ╬╗ failure under uncertainty):**
+**Finding 1 — Blunted anticipatory agranular activation (MBD: λ failure under uncertainty):**
 > "The reduced spatial extent of this activation in the ADE versus HC group could plausibly stem from an overreliance on top-down predictions and perhaps a pruning of spatial activation in the associated regions... Such 'efficient' neural exchanges might even result from a chronic inability to adjust confidence in bodily input in relation to its ambiguity."
 
 In MBD terms: when faced with a genuinely uncertain situation (isoproterenol anticipated but not yet arrived), HC individuals expand agranular insula recruitment — they *generate forward models* for anticipated states. ADE individuals do not. This is low $\lambda$ at the predictive level: the system lacks the machinery to update B(t) in response to anticipated deviation, not just actual deviation.
@@ -253,28 +253,28 @@ $\kappa$ is the parametric handle on this emergent dynamic. When the Architect b
 ### 10.6 Summary: Correspondence and Divergence
 
 ```
-ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
-Γöé              MBD Γåö FEP: Structure of Correspondence                      Γöé
-Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Γöñ
-Γöé SHARED CORE   Γöé Both frameworks                Γöé Identical math layer    Γöé
-Γöé               Γöé B(t) Γëí ╬╝                       Γöé                         Γöé
-Γöé               Γöé I(t)ΓêÆB(t) Γëí ╬╡ = oΓêÆg(╬╝)        Γöé                         Γöé
-Γöé               Γöé ╬╗ Γëí ╧Çs/(╧Çs+╧Çp)                Γöé                         Γöé
-Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
-Γöé MBD NOVEL     Γöé ╬║ — explicit inter-agent        Γöé FEP: emergent, no param Γöé
-Γöé               Γöé coupling coefficient           Γöé                         Γöé
-Γöé               Γöé H — Horizon: non-occupancy     Γöé FEP: models imprecision,Γöé
-Γöé               Γöé as epistemic barrier           Γöé not structural absence  Γöé
-Γöé               Γöé D — environmental deontologicalΓöé FEP: agent-level prefs  Γöé
-Γöé               Γöé demand field                   Γöé only                    Γöé
-Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
-Γöé FEP NOVEL     Γöé Hierarchical precision (multi- Γöé MBD: single ╬╗ layer     Γöé
-Γöé               Γöé level ╬╗)                       Γöé                         Γöé
-Γöé               Γöé Neural substrate predictions   Γöé MBD: substrate-agnostic Γöé
-Γöé               Γöé (insula laminar hierarchy)     Γöé                         Γöé
-Γöé               Γöé Action as free energy          Γöé MBD: inputs specified;  Γöé
-Γöé               Γöé minimization                   Γöé selection mechanism openΓöé
-ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+┌──────────────────────────────────────────────────────────────────────────┐
+│              MBD ↔ FEP: Structure of Correspondence                      │
+├───────────────┬────────────────────────────────┬───────────────────────── ┤
+│ SHARED CORE   │ Both frameworks                │ Identical math layer    │
+│               │ B(t) ≡ μ                       │                         │
+│               │ I(t)−B(t) ≡ ε = o−g(μ)        │                         │
+│               │ λ ≡ πs/(πs+πp)                │                         │
+├───────────────┼────────────────────────────────┼─────────────────────────┤
+│ MBD NOVEL     │ κ — explicit inter-agent        │ FEP: emergent, no param │
+│               │ coupling coefficient           │                         │
+│               │ H — Horizon: non-occupancy     │ FEP: models imprecision,│
+│               │ as epistemic barrier           │ not structural absence  │
+│               │ D — environmental deontological│ FEP: agent-level prefs  │
+│               │ demand field                   │ only                    │
+├───────────────┼────────────────────────────────┼─────────────────────────┤
+│ FEP NOVEL     │ Hierarchical precision (multi- │ MBD: single λ layer     │
+│               │ level λ)                       │                         │
+│               │ Neural substrate predictions   │ MBD: substrate-agnostic │
+│               │ (insula laminar hierarchy)     │                         │
+│               │ Action as free energy          │ MBD: inputs specified;  │
+│               │ minimization                   │ selection mechanism open│
+└───────────────┴────────────────────────────────┴─────────────────────────┘
 ```
 
 The endemic baseline is the region of this correspondence space where MBD and FEP most directly converge: a pathological attractor formed by early adversity, where the prior (B(0)) correctly describes the only world ever occupied, and where the Horizon ($\mathcal{H}$) identifies the states for which neither a generative model nor prior preferences yet exist. The endemic flag is the formal indicator that both frameworks' standard intervention assumptions fail simultaneously.
@@ -286,10 +286,10 @@ The endemic baseline is the region of this correspondence space where MBD and FE
 - Adamic EM, Teed AR, Avery J, de la Cruz F, Khalsa SS (2024). Hemispheric divergence of interoceptive processing across psychiatric disorders. *eLife* 13:RP92820. [https://doi.org/10.7554/eLife.92820](https://doi.org/10.7554/eLife.92820)
 - Barrett LF, Quigley KS, Hamilton P (2016). An active inference theory of allostasis and interoception in depression. *Phil Trans R Soc B* 371:20160011. [https://doi.org/10.1098/rstb.2016.0011](https://doi.org/10.1098/rstb.2016.0011)
 - Heins C, Millidge B, da Costa L, Mann R, Friston K, Couzin I (2024). Collective behavior from surprise minimization. *Proc Natl Acad Sci* 121(17):e2320239121. [https://doi.org/10.1073/pnas.2320239121](https://doi.org/10.1073/pnas.2320239121)
-- Nord CL, Lawson RP, Dalgleish T (2021). Disrupted dorsal mid-insula activation during interoception across psychiatric disorders. *Am J Psychiatry* 178:761ΓÇô770.
-- Paulus MP, Feinstein JS, Khalsa SS (2019). An active inference approach to interoceptive psychopathology. *Annu Rev Clin Psychol* 15:97ΓÇô122. [https://doi.org/10.1146/annurev-clinpsy-050718-095617](https://doi.org/10.1146/annurev-clinpsy-050718-095617)
+- Nord CL, Lawson RP, Dalgleish T (2021). Disrupted dorsal mid-insula activation during interoception across psychiatric disorders. *Am J Psychiatry* 178:761–770.
+- Paulus MP, Feinstein JS, Khalsa SS (2019). An active inference approach to interoceptive psychopathology. *Annu Rev Clin Psychol* 15:97–122. [https://doi.org/10.1146/annurev-clinpsy-050718-095617](https://doi.org/10.1146/annurev-clinpsy-050718-095617)
 - Seth AK, Friston KJ (2016). Active interoceptive inference and the emotional brain. *Phil Trans R Soc B* 371:20160007. [https://doi.org/10.1098/rstb.2016.0007](https://doi.org/10.1098/rstb.2016.0007)
-- Smith R et al. (2020). Computational models of interoception and body regulation. *Trends Neurosci* 44:63ΓÇô76.
+- Smith R et al. (2020). Computational models of interoception and body regulation. *Trends Neurosci* 44:63–76.
 
 ---
 
