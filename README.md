@@ -1,6 +1,6 @@
 # Paper 7: The Endemic Baseline
 
-**Subtitle:** When $B_{reference}$ Was Never Set — Calibration Failure as a Primary Pathological Mode
+**Subtitle:** When $B_{reference}$ Was Never Set — Calibration Formation as a Primary Adaptive Mode
 
 **Author:** Brandon Everett  
 **ORCID:** [0000-0001-7521-5469](https://orcid.org/0000-0001-7521-5469)  
@@ -14,16 +14,16 @@
 
 The MBD framework models cognition as deviation from a reference baseline. All
 prior papers assume that $B_{reference}$ encodes a prior legitimate healthy state.
-This paper addresses the foundational failure mode that violates that assumption:
+This paper addresses the foundational case that violates that assumption:
 the **endemic baseline** — $B(0)$ constructed during chronic disruption. When an
 organism has never occupied a stable healthy state, the reference vector does not
-point toward health: it *is* the pathology.
+point toward health — it encodes the only conditions the system has ever known.
 
 Three specific consequences are formalized:
 
 1. **Healthy-input rejection:** the same positive input that moves a neurotypical
    agent toward health reads as maximally novel and maximally destabilizing for
-   the storm-born agent — whose only attractor is the baseline they were born into.
+   the storm-born agent — whose only attractor is the conditions they were formed in.
 
 2. **Horizon invisibility:** the healthy region $H_{sunny}$ exists in
    $H_{accessible}$ but not in $H_{agent}$. The agent cannot deviate *toward* it
@@ -32,7 +32,7 @@ Three specific consequences are formalized:
 3. **Intervention failure:** standard restoration-to-baseline protocols
    predictably fail. The corrected framework — the **Re-zeroing Protocol** —
    replaces restoration with construction: scaffolded micro-excursions into the
-   Horizon, kappa-building before novelty exposure, and distress held as
+   Horizon, κ-building before novelty exposure, and distress held as
    navigation cost rather than failure signal.
 
 The paper and the labs are the same repository. The $\LaTeX$ mathematics and the
@@ -45,7 +45,7 @@ Python simulation are parallel expressions of the same claims.
 | File | Purpose |
 |------|---------|
 | `PAPER_7_THE_ENDEMIC_BASELINE.md` | Full paper with formal mathematics |
-| `labs/paper7_endemic_baseline/phenomena_endemic.py` | Lab 7a — calibration failure under healthy input (P7a) |
+| `labs/paper7_endemic_baseline/phenomena_endemic.py` | Lab 7a — calibration formation under healthy input (P7a) |
 | `labs/paper7_endemic_baseline/phenomena_rezeroing.py` | Lab 7b — Re-zeroing Protocol vs. flood vs. withdrawal (P7b) |
 
 ---

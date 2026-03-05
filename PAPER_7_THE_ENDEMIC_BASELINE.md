@@ -1,6 +1,6 @@
 ﻿# Paper 7: The Endemic Baseline
 
-**Subtitle:** When $B_{reference}$ Was Never Set — Calibration Failure as a Primary Pathological Mode
+**Subtitle:** When $B_{reference}$ Was Never Set — Calibration Formation as a Primary Adaptive Mode
 
 **Author:** Brandon Everett  
 **Series:** Memory as Baseline Deviation — Computational Labs  
@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The MBD framework models cognition as deviation from a reference baseline: $\Delta B = S_{current} - B_{reference}$. All six prior papers in this series assume that $B_{reference}$ encodes a prior *legitimate* healthy state — an origin from which the system can be understood to have deviated. This paper addresses a foundational failure mode that violates that assumption: the **endemic baseline**, in which $B(0)$ was itself constructed during chronic disruption. When an organism has never occupied a stable healthy state, the reference vector does not point toward health — it *is* the pathology. The framework predicts, and the labs demonstrate, three specific consequences of this condition: (1) healthy inputs read as maximally novel and are therefore maximally destabilizing rather than integrative; (2) the experiential horizon — the set of reachable states never occupied — is invisible to the agent's own representational system; and (3) standard restoration-to-baseline interventions will predictably fail and may produce iatrogenic distress. A corrected intervention framework, the **Re-zeroing Protocol**, is derived from first principles.
+The MBD framework models cognition as deviation from a reference baseline: $\Delta B = S_{current} - B_{reference}$. All six prior papers in this series assume that $B_{reference}$ encodes a prior *legitimate* healthy state — an origin from which the system can be understood to have deviated. This paper addresses the foundational case that violates that assumption: the **endemic baseline**, in which $B(0)$ was itself constructed during chronic disruption. When an organism has never occupied a stable healthy state, the reference vector does not point toward health — it encodes the only conditions the system has ever known. The framework predicts, and the labs demonstrate, three specific consequences of this condition: (1) healthy inputs read as maximally novel and are therefore maximally destabilizing rather than integrative; (2) the experiential horizon — the set of reachable states never occupied — is invisible to the agent's own representational system; and (3) standard restoration-to-baseline interventions will predictably fail and may produce iatrogenic distress. A corrected intervention framework, the **Re-zeroing Protocol**, is derived from first principles.
 
 ---
 
@@ -28,7 +28,7 @@ $$N(t) = \|I(t) - B(t)\|$$
 
 and all downstream dynamics — encoding strength, κ-coupling modulation, attractor basin gravity — are functions of $N(t)$.
 
-**The implicit assumption baked into all six prior papers:** $B_{reference}$ is anchored to experiences that include at least some interval of healthy, undisrupted state. The system knows what a clear sky looks like because it has seen one. Pathology is deviation *away from* that anchor. Treatment is deviation *back toward* it.
+**The implicit assumption baked into all six prior papers:** $B_{reference}$ is anchored to experiences that include at least some interval of healthy, undisrupted state. The system knows what a clear sky looks like because it has seen one. Disruption is deviation *away from* that anchor. Treatment is deviation *back toward* it.
 
 **The endemic baseline condition:** $B(0)$ was established during chronic disruption. The agent has no prior clear-sky state to anchor to. They were born in the storm, raised in the storm, and the storm is the only state their reference vector has ever encoded.
 
@@ -100,7 +100,7 @@ The correct intervention is not restoration. It is **first contact** with a prev
 
 3. **Tolerance of distress as navigation, not failure.** When the agent reports distress during a healthy-input excursion, this is the Emergent Gate firing correctly: maximum novelty, maximum encoding. The distress is the system doing its job. It is not a sign the intervention is wrong. The clinical error is to retreat from the distress signal back to the storm, which deepens the storm-basin further.
 
-4. **Identity scaffolding.** The cultural and social apparatus the agent built for the storm becomes incoherent in $\mathcal{H}$. This is not pathology — it is correct. The system's infrastructure was designed for the environment it has always occupied. Re-zeroing requires parallel construction of a new identity framework, not mere emotional adjustment.
+4. **Identity scaffolding.** The cultural and social apparatus the agent built for the storm becomes incoherent in $\mathcal{H}$. This is not dysfunction — it is correct. The system's infrastructure was designed for the environment it has always occupied. Re-zeroing requires parallel construction of a new identity framework, not mere emotional adjustment.
 
 Formally, the Re-zeroing Protocol is a sequence of inputs $\{I_1, I_2, \ldots, I_n\}$ satisfying:
 
@@ -172,7 +172,7 @@ When `endemic = True`, the following framework behaviors change:
 
 ## 9. Conclusion
 
-The endemic baseline is not a variant of MDD, PTSD, or any other clinical category. It is a **calibration failure** at the framework level: the measurement instrument itself was initialized on pathological data, and there is no prior healthy reading against which to measure deviation.
+The endemic baseline is not a variant of MDD, PTSD, or any other clinical category. It is a **calibration formation** at the framework level: the measurement instrument was initialized on the only data available, and there is no prior healthy reading against which to measure deviation.
 
 The corrective is not to push the agent toward health. It is to take the agent to health for the first time — incrementally, with high relational scaffold, tolerating the groundlessness between identities, and building a new reference that did not previously exist.
 
@@ -195,7 +195,7 @@ The Free Energy Principle (FEP) and its active inference framework (Friston, 201
 | $\lambda$ — update rate | $\pi_s / (\pi_s + \pi_p)$ — precision-weighted update | **Parametric correspondence.** Precision $\pi = 1/\sigma^2$ (inverse variance). The Bayesian update weight is $\pi_{sensory}/(\pi_{sensory} + \pi_{prior})$. Setting $\lambda \equiv \pi_s/(\pi_s + \pi_p)$ recovers the MBD update rule. | Low $\lambda$ in MBD = high prior precision relative to sensory precision in FEP = the prior resists updating = the baseline resists deviation. Depression as low $\lambda$ (Barrett et al., 2016; Smith et al., 2020). |
 | $\kappa$ — social coupling coefficient | *(no direct AIF equivalent)* | **MBD novel contribution.** AIF models individual agents; collective behavior studies (Heins, Millidge, da Costa, Mann, Friston & Couzin, *PNAS* 2024) show that social forces *emerge* from shared generative models under surprise minimization, but no single parameter governs inter-agent update rates. $\kappa$ is the explicit handle on this emergent dynamic. | $\kappa$ makes between-agent recursive baseline updating tractable to measure, vary, and intervene on — a parametric gap in the FEP architecture. |
 | $D$ — deontological demand | $\tilde{P}(o)$ — prior preferences over outcomes | **Approximate correspondence.** FEP agents have preferred outcomes encoded as prior beliefs; the cost of occupying non-preferred states enters directly into free energy. $D$ generalizes this to the *environment* as an agent: built spaces (Sanctuaries, Arenas, Markets, Cesspits) generate structural demand fields that deform the agent's effective $\tilde{P}(o)$. | Context-sensitive reward in Barrett, Quigley & Hamilton (2016): allostatic context shapes what constitutes a "preferred" interoceptive state. |
-| Endemic $B(0)$ | Pathological attractor formed by early adversity | **Bidirectional mapping.** FEP literature models resistant priors as deep attractors in the free energy landscape — states that persist because the gradient of surprise does not point away from them for the agent's generative model. Endemic $B(0)$ is exactly this: a deep attractor whose walls are high because *all evidence ever received was generated within it*. | Barrett et al. 2016 (allostasis/depression); Smith et al. 2020 (computational model of treatment response); early-adversity prior-formation literature. |
+| Endemic $B(0)$ | Deep attractor formed by early adversity | **Bidirectional mapping.** FEP literature models resistant priors as deep attractors in the free energy landscape — states that persist because the gradient of surprise does not point away from them for the agent's generative model. Endemic $B(0)$ is exactly this: a deep attractor whose walls are high because *all evidence ever received was generated within it*. | Barrett et al. 2016 (allostasis/depression); Smith et al. 2020 (computational model of treatment response); early-adversity prior-formation literature. |
 | $\mathcal{H} = H_{accessible} \setminus H_{agent}$ — Horizon | *(no direct AIF equivalent)* | **MBD novel contribution.** AIF accommodates uncertainty about *known* states (imprecise beliefs about states the generative model contains). $\mathcal{H}$ formalizes a structurally different epistemic barrier: states that are absent from the generative model not because of uncertainty, but because they have never been occupied and therefore were never encoded into the prior. | The agranular anterior insula generates predictive forward models for anticipated interoceptive states (Adamic et al., 2024). ADE individuals show *pruned agranular activation* during anticipatory uncertainty — consistent with the prediction that $\mathcal{H}$ contains states for which no forward model can be generated. |
 
 ### 10.2 What MBD Adds to the AIF Conversation
@@ -236,12 +236,12 @@ For the endemic baseline specifically: if $\mathcal{H}$ contains states that hav
 **Finding 2 — Altered insula-frontal connectivity correlated with depression severity:**
 > "The magnitude of functional connectivity change between these two areas was associated with trait anxiety (...) and trait depression (...) but not the magnitude of ISO-induced heart rate."
 
-The neural signature tracks the phenomenological/trait dimension, not the peripheral signal strength. The disruption is at the *interpretive layer* — the B(t) level — not at the sensory input level. This replicates the core MBD claim: pathology is not in the signal; it is in the baseline that interprets the signal.
+The neural signature tracks the phenomenological/trait dimension, not the peripheral signal strength. The disruption is at the *interpretive layer* — the B(t) level — not at the sensory input level. This replicates the core MBD claim: the disruption is not in the signal; it is in the baseline that interprets the signal.
 
 **Finding 3 — Dysgranular mid-insula as locus of interoceptive disruption (previously: Nord et al., 2021):**
 > "These hemispheric asymmetries, and the disparate spatial patterns within the left dysgranular insula, support the conceptualization of this subregion as a 'locus of disruption' for interoceptive symptomatology in these disorders."
 
-The dysgranular mid-insula is proposed as the site where prediction errors $\varepsilon = I(t) - B(t)$ are computed. Its disruption in ADE is the neural expression of a corrupted deviation signal — corrupted because $B(t)$ was set under pathological conditions.
+The dysgranular mid-insula is proposed as the site where prediction errors $\varepsilon = I(t) - B(t)$ are computed. Its disruption in ADE is the neural expression of a deviation signal calibrated under chronic adversity — a signal computing correctly from a reference that was formed in the storm.
 
 ### 10.5 The Multi-Agent Bridge: Heins et al. (PNAS 2024)
 
@@ -277,7 +277,7 @@ $\kappa$ is the parametric handle on this emergent dynamic. When the Architect b
 └───────────────┴────────────────────────────────┴─────────────────────────┘
 ```
 
-The endemic baseline is the region of this correspondence space where MBD and FEP most directly converge: a pathological attractor formed by early adversity, where the prior (B(0)) correctly describes the only world ever occupied, and where the Horizon ($\mathcal{H}$) identifies the states for which neither a generative model nor prior preferences yet exist. The endemic flag is the formal indicator that both frameworks' standard intervention assumptions fail simultaneously.
+The endemic baseline is the region of this correspondence space where MBD and FEP most directly converge: a deep attractor formed by early adversity, where the prior (B(0)) correctly describes the only world ever occupied, and where the Horizon ($\mathcal{H}$) identifies the states for which neither a generative model nor prior preferences yet exist. The endemic flag is the formal indicator that both frameworks' standard intervention assumptions fail simultaneously.
 
 ---
 

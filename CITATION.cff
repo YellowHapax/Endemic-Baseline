@@ -13,16 +13,16 @@ version: 1.0.0
 date-released: "2026-02-27"
 abstract: >-
   Paper 7 in the Memory as Baseline Deviation series. Addresses the foundational
-  failure mode in which B(0) was itself constructed during chronic disruption —
+  case in which B(0) was itself constructed during chronic disruption —
   the endemic baseline. Formalizes three predicted consequences (healthy-input
   rejection, horizon invisibility, intervention failure) and derives the
   Re-zeroing Protocol from first principles. Includes two executable computational
-  labs: P7a (calibration failure under healthy input) and P7b (Re-zeroing
+  labs: P7a (calibration formation under healthy input) and P7b (Re-zeroing
   Protocol vs. flood vs. withdrawal).
 keywords:
   - memory as baseline deviation
   - endemic baseline
-  - calibration failure
+  - calibration formation
   - re-zeroing protocol
   - computational psychiatry
   - MBD framework
