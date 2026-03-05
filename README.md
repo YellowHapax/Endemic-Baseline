@@ -3,7 +3,7 @@
 **Subtitle:** When $B_{reference}$ Was Never Set — Calibration Formation as a Primary Adaptive Mode
 
 **Author:** Brandon Everett  
-**ORCID:** [0000-0001-7521-5469](https://orcid.org/0000-0001-7521-5469)  
+**ORCID:** [0009-0007-6676-4897](https://orcid.org/0009-0007-6676-4897)  
 **Series:** Memory as Baseline Deviation — Computational Labs  
 **Depends on:** [MBD-Framework](https://github.com/YellowHapax/MBD-Framework) (Papers 1–6)  
 **Succeeded by:** [Suppressive and Emergent Phenomenon](https://github.com/YellowHapax/Suppressive-and-Emergent-Phenomenon) (Paper 8)
